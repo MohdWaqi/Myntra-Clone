@@ -11,7 +11,7 @@ const BagPage = () => {
         <Image w="50%" src={bag} m="auto" my="5%" alt="Empty Bag" />
         <Heading fontSize="lg">Hey, it feels so light!</Heading>
         <Text fontSize="sm" color="gray" mb="10%">
-          kuch khareedo humse, Hamari jeb moti karwao.
+         Naam kar do.
         </Text>
         <Button
           fontSize="sm"
