@@ -1,0 +1,136 @@
+[
+    [
+        {
+            "title": "Topwear",
+            "content": [
+                "T-Shirts",
+                "Casual Shirts",
+                "Formal Shirts",
+                "Sweatshirts",
+                "Sweatshirts",
+                "Sweaters",
+                "Jackets",
+                "Blazers & Coats",
+                "Suits",
+                "Rain Jackets"
+            ]
+        },
+        {
+            "title": "Indian & Festive Wear",
+            "content": [
+                "Kurtas & Kurta Sets",
+                "Sherwanis",
+                "Nehru Jackets",
+                "Dhotis"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Bottomwear",
+            "content": [
+                "Jeans",
+                "Casual Trousers",
+                "Formal Trousers",
+                "Shorts",
+                "Track Pants & Joggers"
+            ]
+        },
+        {
+            "title": "Innerwear & Sleepwear",
+            "content": [
+                "Briefs & Trunks",
+                "Boxers",
+                "Vests",
+                "Sleepwear & Loungewear",
+                "Thermals"
+            ]
+        },
+        {
+            "title": "Plus Size",
+            "content": null
+        }
+    ],
+    [
+        {
+            "title": "Footwear",
+            "content": [
+                "Casual Shoes",
+                "Sport Shoes",
+                "Formal Shoes",
+                "Sneakers",
+                "Sandals & Floaters",
+                "Flip Flops",
+                "Socks"
+            ]
+        },
+        {
+            "title": "Personal Care & Grooming",
+            "content": null
+        },
+        {
+            "title":"Sunglasses & Frames",
+            "content":null
+        },
+        {
+            "title":"Watches",
+            "content":null
+        },
+        {
+            "title":"Developed by",
+            "content":["Mohd Waqi Pervez"]
+        }
+    ],
+    [
+        {
+            "title": "Sports & Active Wear",
+            "content": [
+                "Sports Shoes",
+                "Sports Sandals",
+                "Active T-Shirts",
+                "Track Pants & Shorts",
+                "Tracksuits",
+                "Jackets & Sweatshirts",
+                "Sports Accessories",
+                "Swimwear"
+            ]
+        },
+        {
+            "title": "Gadgets",
+            "content": [
+                "Smart Wearables",
+                "Fitness Gadgets",
+                "Headphones",
+                "Speakers"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Fashion Accessories",
+            "content": [
+                "Wallets",
+                "Belts",
+                "Perfumes & Body Mists",
+                "Trimmers",
+                "Deodorants",
+                "Ties, Cufflinks & Pocket Squares",
+                "Accessory Gift Sets",
+                "Caps & Hats",
+                "Mufflers, Scarves & Gloves", 
+                "Phone Cases",
+                "Rings & Wristwear",
+                "Helmets"
+            ]
+        },
+        {
+            "title": "Bags & Backpacks",
+            "content": null
+        },
+        {
+            "title": "Luggages & Trolleys",
+            "content": null
+        }
+    ]
+    
+]

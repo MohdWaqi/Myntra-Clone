@@ -1,0 +1,139 @@
+[
+    [
+        {
+            "title": "Indian & Fusion Wear",
+            "content": [
+                "Kurtas & Suits",
+                "Kurtis, Tunics & Tops",
+                "Sarees",
+                "Ethnic Wear",
+                "Leggings, Salwars & Churidars",
+                "Skirts & Palazzos",
+                "Dress Materials",
+                "Lehanga Cholis",
+                "Dupattas & Shawls",
+                "Jackets"
+            ]
+        },
+        {
+            "title": "Belts, Scarves & More",
+            "content": null
+        },
+        {
+            "title": "Watches & Wearables",
+            "content": null
+        }
+    ],
+    [
+        {
+            "title": "Western Wear",
+            "content": [
+                "Dresses",
+                "Tops",
+                "Tshirts",
+                "Jeans",
+                "Trousers & Capris",
+                "Shorts & Skirts",
+                "Co-ords",
+                "Playsuits",
+                "Jumpsuits",
+                "Shrugs",
+                "Sweaters & Sweatshirts",
+                "Jackets & Coats",
+                "Blazers & Waistcoats"
+            ]
+        },
+        {
+            "title": "Plus Size",
+            "content": null
+        }
+    ],
+    [
+        {
+            "title": "Maternity",
+            "content": null
+        },
+        {
+            "title": "Sunglasses & Frames",
+            "content": null
+        },
+        {
+            "title":"Footwear",
+            "content":[
+                "Flats",
+                "Casual Shoes",
+                "Heels",
+                "Boots",
+                "Sport Shoes & Floaters"
+            ]
+        },
+        {
+            "title":"Sports & Active Wear",
+            "content":[
+                "Clothing",
+                "Footwear",
+                "Sports Accessories",
+                "Sports Equipment"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Lingerie & Sleepwear",
+            "content": [
+                "Bra",
+                "Briefs",
+                "Shapewear",
+                "Sleepwear & Loungewear",
+                "Swimwear",
+                "Camisoles & Thermals"
+            ]
+        },
+        {
+            "title": "Beauty & Personal Care",
+            "content": [
+                "Makeup",
+                "Skincare",
+                "Premium Beauty",
+                "Lipsticks",
+                "Fragrances"
+            ]
+        },
+        {
+            "title":"Developed by",
+            "content":["Mohd Waqi Pervez"]
+        }
+    ],
+    [
+        {
+            "title": "Gadgets",
+            "content": [
+                "Smart Wearables",
+                "Fitness Gadgets",
+                "Headphones",
+                "Speakers"
+            ]
+        },
+        {
+            "title": "Jewellery",
+            "content": [
+                "Fashion Jewellery",
+                "Fine Jewellery",
+                "Earrings"
+            ]
+        },
+        {
+            "title": "Backpacks",
+            "content": null
+        },
+        {
+            "title":"Handbags, Bags & Wallets",
+            "content": null
+        },
+        {
+            "title":"Luggages & Trolleys",
+            "content": null
+        }
+    ]
+    
+]

@@ -1,0 +1,136 @@
+[
+    [
+        {
+            "title": "Bed Linen & Furnishing",
+            "content": [
+                "Bed Runners",
+                "Mattress Protectors",
+                "Bedsheets",
+                "Bedding Sets",
+                "Blankets, Quilts & Dohars",
+                "Pillows & Pillow Covers",
+                "Bed Covers",
+                "Diwan Sets",
+                "Chair Pads & Covers",
+                "Sofa Covers"
+            ]
+        },
+        {
+            "title": "Flooring",
+            "content": [
+                "Floor Runners",
+                "Carperts",
+                "Floor Mats & Dhurries",
+                "Door Mats"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Bath",
+            "content": [
+                "Bath Towels",
+                "Hand & Face Towels",
+                "Beach Towels",
+                "Towels Set",
+                "Bath Rugs",
+                "Bath Robes",
+                "Bathroom Accessories",
+                "Shower Curtains"
+            ]
+        },
+        {
+            "title": "Lamps & Lighting",
+            "content": [
+                "Floor Lamps",
+                "Ceiling Lamps",
+                "Table Lamps",
+                "Wall Lamps",
+                "Outdoor Lamps",
+                "String Lights"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Home Decor",
+            "content": [
+                "Plants & Planters",
+                "Aromas & Candles",
+                "Clocks",
+                "Mirrors",
+                "Wall Decor",
+                "Festive Decor",
+                "Pooja Essentials",
+                "Wall Shelves",
+                "Fountains",
+                "Showpieces & Vases",
+                "Ottoman"
+            ]
+        },
+        {
+            "title": "Cushions & Cushion Covers",
+            "content": null
+        },
+        {
+            "title":"Curtains",
+            "content":null
+        }
+    ],
+    [
+        {
+            "title": "Home Gift Sets",
+            "content": null
+        },
+        {
+            "title": "Kitchen & Table",
+            "content": [
+                "Table Runners",
+                "Dinnerware & Serveware",
+                "Cups and Mugs",
+                "Bakeware & Cookware",
+                "Kitchen Storage & Tools",
+                "Bar & Drinkware",
+                "Table Covers & Furnishings"
+            ]
+        },
+        {
+            "title": "Storage",
+            "content":[
+                "Bins",
+                "Hangers",
+                "Organisers",
+                "Hooks & Holders",
+                "Laundry Bags"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Brands",
+            "content": [
+                "H&M",
+                "Marks & Spencer",
+                "Home Centre",
+                "Spaces",
+                "D'Decor",
+                "Story@Home",
+                "Pure Home & Living",
+                "Swayam",
+                "Raymond Home", 
+                "Maspar",
+                "My trident",
+                "Cortina",
+                "Random",
+                "Ellementry",
+                "ROMEE",
+                "SEJ by Nisha Gupta"
+            ]
+        },
+        {
+            "title":"Developed by",
+            "content":["Mohd Waqi Pervez"]
+        }
+    ]
+    
+]

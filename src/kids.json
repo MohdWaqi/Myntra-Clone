@@ -1,0 +1,123 @@
+[
+    [
+        {
+            "title": "Boys Clothing",
+            "content": [
+                "T-Shirts",
+                "Shirts",
+                "Shorts",
+                "Jeans",
+                "Trousers",
+                "Clothing Sets",
+                "Ethnic Wear",
+                "Track Pants & Pyjamas",
+                "Jacket, Sweater & Sweatshirts",
+                "Party Wear",
+                "Innerwear & Thermals",
+                "Nightwear & Loungewear",
+                "Value Packs"
+            ]
+        },
+        {
+            "title":"Developed by",
+            "content":["Mohd Waqi Pervez"]
+        }
+    ],
+    [
+        {
+            "title": "Girls Clothing",
+            "content": [
+                "Dresses",
+                "Tops",
+                "Tshirts",
+                "Clothing Sets",
+                "Lehenga choli",
+                "Kurta Sets",
+                "Party wear",
+                "Dungarees & Jumpsuits",
+                "Skirts & shorts",
+                "Tights & Leggings",
+                "Jeans, Trousers & Capris",
+                "Jacket, Sweater & Sweatshirts",
+                "Innerwear & Thermals",
+                "Nightwear & Loungewear",
+                "Value Packs"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Footwear",
+            "content": [
+                "Casual Shoes",
+                "Flipflops",
+                "Sports Shoes",
+                "Flats",
+                "Sandals",
+                "Heels",
+                "School Shoes",
+                "Socks"
+            ]
+        },
+        {
+            "title": "Toys & Games",
+            "content": [
+                "Learning & Development",
+                "Activity Toys",
+                "Soft Toys",
+                "Action Figure / Play set"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Infants",
+            "content": [
+                "Bodysuits",
+                "Rompers & Sleepsuits",
+                "Clothing Sets",
+                "Tshirts & Tops",
+                "Dresses",
+                "Bottom wear",
+                "Winter Wear",
+                "Innerwear & Sleepwear",
+                "Infant Care"
+            ]
+        },
+        {
+            "title": "Home & Bath",
+            "content": null
+        },
+        {
+            "title":"Personal Care",
+            "content":null
+        }
+    ],
+    [
+        {
+            "title": "Kids Accessories",
+            "content": [
+                "Bags & Backpacks",
+                "Watches",
+                "Jewellery & Hair accessory",
+                "Sunglasses",
+                "Masks & Protective Gears",
+                "Caps & Hats"
+            ]
+        },
+        {
+            "title": "Brands",
+            "content": [
+                "H&M",
+                "Max Kids",
+                "Pantaloons",
+                "United Colors Of Benetton Kids",
+                "YK",
+                "U.S. Polo Assn.Kids",
+                "Mothercare",
+                "HRX"
+            ]
+        }
+    ]
+    
+]

@@ -1,0 +1,132 @@
+[
+    [
+        {
+            "title": "Makeup",
+            "content": [
+                "Lipstick",
+                "Lip Gloss",
+                "Lip Liner",
+                "Mascara",
+                "Eyeliner",
+                "Kajal",
+                "Eyeshadow",
+                "Foundation",
+                "Primer",
+                "Concealer",
+                "Compact",
+                "Nail Polish"
+            ]
+        },
+        {
+            "title":"Developed by",
+            "content":["Mohd Waqi Pervez"]
+        }
+        
+    ],
+    [
+        {
+            "title": "Skincare, Bath & Body",
+            "content": [
+                "Face Moisturiser",
+                "Cleanser",
+                "Masks & Peel",
+                "Sunscreen",
+                "Serum",
+                "Face Wash",
+                "Eye Cream",
+                "Lip Balm",
+                "Body Lotion",
+                "Body Wash",
+                "Body Scrub",
+                "Hand Cream"
+            ]
+        },
+        {
+            "title":"Baby Care",
+            "content":null
+        },
+        {
+            "title": "Masks",
+            "content":null
+        }
+    ],
+    [
+        {
+            "title": "Haircare",
+            "content": [
+                "Shampoo",
+                "Conditioner",
+                "Hair Cream",
+                "Hair Oil",
+                "Hair Gel",
+                "Hair Color",
+                "Hair Serum",
+                "Hair Accessory"
+            ]
+        },
+        {
+            "title": "Fragrances",
+            "content": [
+                "Perfume",
+                "Deodorants",
+                "Body Mist"
+            ]
+        }
+    ],
+    [
+        {
+            "title": "Appliances",
+            "content": [
+                "Hair Straightener",
+                "Hair Dryer",
+                "Epilator"
+            ]
+        },
+        {
+            "title": "Men's Grooming",
+            "content": [
+                "Trimmers",
+                "Beard Oil",
+                "Hair Wax"
+            ]
+        },
+        {
+            "title":"Beauty Gift & Makeup Set",
+            "content":[
+                "Beauty Gift",
+                "Makeup Kit"
+            ]
+        },
+        {
+            "title":"Premium Beauty",
+            "content":null
+        },
+        {
+            "title":"Wellness & Hygiene",
+            "content": null
+        } 
+    ],
+    [
+        {
+            "title": "Top Brands",
+            "content": [
+                "Lakme",
+                "Maybelline",
+                "LOreal",
+                "Philips",
+                "Bath & Body Works",
+                "THE BODY SHOP",
+                "Biotique",
+                "Mamaearth",
+                "MCaffeine",
+                "Nivea",
+                "Lotus Herbals",
+                "LOreal Professionnel",
+                "KAMA AYURVEDA",
+                "M.A.C",
+                "Forest Essentials"
+            ]
+        }
+    ]
+    
+]

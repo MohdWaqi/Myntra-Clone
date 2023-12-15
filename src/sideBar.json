@@ -1,0 +1,45 @@
+[
+    {
+        "heading": "CATEGORIES",
+        "options": []
+    },
+    {
+        "heading": "BRAND",
+        "options": ["Roadster(2799)",
+        "HRX by Hrithik Roshan(2256)",
+        "Tommy Hilfiger(1982)",
+        "WROGN(1691)",
+        "V-Mart(1626)",
+        "Friskers(1606)",
+        "HERE&NOW(1496)",
+        "Jack & Jones(145)"]
+    },
+    {
+        "heading": "PRICE",
+        "options": ["Rs. 137 to Rs. 10103(113331)",
+        "Rs. 10103 to Rs. 20069(470)",
+        "Rs. 20069 to Rs. 30035(18)",
+        "Rs. 30035 to Rs. 40001(7)"]
+    },
+    {
+        "heading": "COLOR",
+        "options": ["Black (17350)",
+        "Blue (14448)",
+        "White (13801)",
+        "Navy Blue (10654)",
+        "Green (7971)",
+        "Grey (6622)",
+        "Red (5870)"]
+    },
+    {
+        "heading": "DISCOUNT RANGE",
+        "options": ["10% and above",
+        "20% and above",
+        "30% and above",
+        "40% and above",
+        "50% and above",
+        "60% and above",
+        "70% and above",
+        "80% and above"]
+    }
+]
