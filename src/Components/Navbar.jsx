@@ -38,6 +38,7 @@ import rightArrowHead from "../assets/icons/chevron-right.svg";
 import { AuthContext } from "../Context/AuthContextProvider";
 import { useNavigate } from "react-router-dom";
 
+
 function Navbar() {
   const {
     isOpen: menIsOpen,
@@ -82,7 +83,7 @@ function Navbar() {
       boxShadow="lg"
       as="header"
       position="fixed"
-      w="100vw"
+      w="100%"
       bg="white"
       top="0"
       zIndex={1}
@@ -92,18 +93,18 @@ function Navbar() {
           onClick={() => {
             navigate("/");
           }}
-          w="50px"
-          h="37px"
+          w="3.5%"
           src={logo}
           alt="logo"
           ml="4%"
         />
-        <Flex h="100%" ml="3.5%">
+        <Flex h="100%" w="65%" ml={{"2xl":"3.5%", xl:"2%"}}>
           <Box
-            px="19px"
+            // px="19px"
+            px="3%"
             fontSize="xs"
             fontWeight="700"
-            mt="32px"
+            mt="5.8%"
             onMouseEnter={menOnOpen}
           >
             MEN
@@ -119,10 +120,10 @@ function Navbar() {
           />
 
           <Box
-            px="19px"
+            px="3.5%"
             fontSize="xs"
             fontWeight="700"
-            mt="32px"
+            mt="5.8%"
             onMouseEnter={womenOnOpen}
           >
             WOMEN
@@ -136,10 +137,10 @@ function Navbar() {
             hColor="#E16DCD"
           />
           <Box
-            px="19px"
+            px="3.5%"
             fontSize="xs"
             fontWeight="700"
-            mt="32px"
+            mt="5.8%"
             onMouseEnter={kidsOnOpen}
           >
             KIDS
@@ -153,11 +154,12 @@ function Navbar() {
             hColor="#F08435"
           />
           <Box
-            px="19px"
+            px="3.2%"
             fontSize="xs"
             fontWeight="700"
-            mt="32px"
+            mt="5.8%"
             onMouseEnter={homeAndLivingOnOpen}
+            w={{"2xl":"max-content", xl:"300px"}}
           >
             HOME & LIVING
           </Box>
@@ -170,10 +172,10 @@ function Navbar() {
             hColor="#F0C535"
           />
           <Box
-            px="19px"
+            px="3.55%"
             fontSize="xs"
             fontWeight="700"
-            mt="32px"
+            mt="5.8%"
             onMouseEnter={beautyOnOpen}
           >
             BEAUTY
@@ -187,10 +189,10 @@ function Navbar() {
             hColor="#38CA9F"
           />
           <Box
-            px="19px"
+            px="3.5%"
             fontSize="xs"
             fontWeight="700"
-            mt="32px"
+            mt="5.8%"
             position="relative"
             onMouseEnter={studioOnOpen}
           >
@@ -205,12 +207,12 @@ function Navbar() {
               NEW
             </Text>
           </Box>
-          <Modal isOpen={studioIsOpen}>
-            <ModalOverlay mt="12vh" />
+          <Modal isOpen={studioIsOpen} preserveScrollBarGap>
+            <ModalOverlay mt="11vh" />
 
             <ModalContent
               position="relative"
-              mt="11.8vh"
+              mt="11vh"
               onMouseEnter={studioOnOpen}
               onMouseLeave={studioOnClose}
               ml="-17%"
@@ -221,7 +223,7 @@ function Navbar() {
               <Box
                 position="absolute"
                 top="-80px"
-                left="42.5%"
+                left="41.7%"
                 w="83px"
                 h="80px"
                 borderBottom={studioIsOpen && `3px solid #F22E97`}
