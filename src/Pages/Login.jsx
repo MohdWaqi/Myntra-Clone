@@ -59,7 +59,7 @@ const Login = () => {
 
   return (
     <Flex h="100vh" bg="#FFEBF2">
-      <Box h="80vh" w="25.5%" m="auto" bg="white" mt="110px">
+      <Box h="80vh" w={{"2xl":"25.5%", xl:"32%"}} m="auto" bg="white" mt="110px">
         <Image src={cashback} alt="cashback" />
         <Box>
           <Heading fontSize="lg" w="fit-content" m="auto" my="5%">
