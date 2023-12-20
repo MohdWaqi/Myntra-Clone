@@ -21,33 +21,36 @@ import { AuthContext } from "../Context/AuthContextProvider";
 
 function AllProducts() {
   const [products, setProducts] = useState([]);
-  const [page, setPage] = useState(1);
-  const [pages, setPages] = useState([]);
   const  {isSort, sortClick, setSortClick, loading, setLoading} =useContext(AuthContext)
+  const [curPage, setCurPage] = useState(0);
+  const itemLimit = 12;
+  const [pagesQuantity, setPagesQuantity] = useState(0);
+  const [curItems, setCurItems] = useState([]);
 
   useEffect(() => {
     !sortClick&&getData();
-    getPages();
     const notAllProducts=()=>{
       setSortClick(false)
     }
     return notAllProducts
-  }, [page, isSort]);
-  const getPages = () => {
-    const dummyPages = [];
-    for (let i = 1; i <= Math.ceil(20 / 8); i++) {
-      dummyPages.push(i);
-    }
-    setPages(dummyPages);
-  };
+  }, [ isSort]);
   const getData = async () => {
     setLoading(true)
     const res = await axios.get(`https://fakestoreapi.com/products`);
     setLoading(false);
     setProducts(res.data);    
   };
-  
-  
+  useEffect(() => {
+    const pagesTotal = Math.ceil(products.length / itemLimit);
+
+    setPagesQuantity(pagesTotal);
+    const offset = curPage * itemLimit;
+    const getList = (curPage, itemLimit) => {
+      setCurItems(products.slice(offset, offset + itemLimit));
+    };
+
+    getList(curPage, itemLimit);
+  }, [curPage, itemLimit, products]);
 
   return (
     <Box mt="7%" overflowX="hidden">
@@ -71,7 +74,7 @@ function AllProducts() {
             justifyContent="space-between"
             w="82vw"
             h="max-content"
-            p="12.4px"
+            p={{"2xl":"1%",xl:"0.75%"}}
           >
             <Accordion
               allowToggle
@@ -99,7 +102,7 @@ function AllProducts() {
     size='xl'
   /></Flex>:
           <Flex w="80vw" flexWrap="wrap" justifyContent="space-between" p="5%">
-            {products.map((product) => (
+            {curItems.map((product) => (
               <ProductCard
                 key={product.id}
                 id={product.id}
@@ -113,35 +116,35 @@ function AllProducts() {
             ))}
           </Flex>}
           <Divider border="1px solid lightgray" w="90%" m="auto" my="0px" />
-          <Flex justifyContent="space-around" w="50vw" m="auto" p="5%">
-            <Text>
-              Page {page} of {pages.length}
+          <Flex w="100%" m="auto" p="5%">
+            <Text mr="30%">
+              Page {curPage+1} of {pagesQuantity}
             </Text>
-            {page != 1 && (
+            {curPage+1 != 1 && (
               <Button
                 bg="none"
                 border="1px solid lightgray"
                 _hover={{ backgroundColor: "none", border: "1px solid black" }}
                 onClick={() => {
-                  setPage(page - 1);
+                  setCurPage(curPage - 1);
                 }}
                 _active={{ backgroundColor: "none" }}
               >
                 <ChevronLeftIcon /> Previous
               </Button>
             )}
-            <Flex>
-              {pages.map((element, index) => (
+            <Flex mx="5%">
+              {Array.from({length: pagesQuantity}, (_, i) => i + 1).map((element, index) => (
                 <Button
                   key={index}
-                  bg={element == page ? "black" : "none"}
+                  bg={index == curPage ? "black" : "none"}
                   onClick={() => {
-                    setPage(element);
+                    setCurPage(index);
                   }}
-                  color={element == page && "white"}
+                  color={index == curPage && "white"}
                   _hover={{
                     backgroundColor: "none",
-                    border: element == page && "1px solid lightgray",
+                    border: index == curPage && "1px solid lightgray",
                   }}
                   _active={{ backgroundColor: "none" }}
                 >
@@ -149,12 +152,12 @@ function AllProducts() {
                 </Button>
               ))}
             </Flex>
-            {pages.length != page && (
+            {pagesQuantity != curPage+1 && (
               <Button
                 bg="none"
                 border="1px solid lightgray"
                 onClick={() => {
-                  setPage(page + 1);
+                  setCurPage(curPage + 1);
                 }}
                 _hover={{ backgroundColor: "none", border: "1px solid black" }}
                 _active={{ backgroundColor: "none" }}
