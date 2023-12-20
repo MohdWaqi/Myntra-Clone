@@ -21,10 +21,10 @@ function Footer() {
   return (
     <Box bg="gray.100">
       <Center>
-        <Box w="71%" m="2%">
+        <Box w={{"2xl":"71%", xl:"85%"}} m="6%">
           <Flex fontSize="sm" color="gray">
-            <Flex flexDirection="column" lineHeight="28px" w="16%" mr="2%">
-              <Text as="b" fontSize="xs" color="black" my="10%">
+            <Flex flexDirection="column" lineHeight="200%" w="16%" mr="2%">
+              <Text as="b" fontSize="xs" color="black" >
                 ONLINE SHOPPING
               </Text>
               <Text>Men</Text>
@@ -45,7 +45,7 @@ function Footer() {
               <Text>ClearTrip</Text>
             </Flex>
             <Flex flexDirection="column" lineHeight="28px" w="16%">
-              <Text as="b" fontSize="xs" color="black" my="10%">
+              <Text as="b" fontSize="xs" color="black">
                 CUSTOMER POLICIES
               </Text>
               <Text>Contact Us</Text>
@@ -60,7 +60,7 @@ function Footer() {
               <Text>Grievance Officer</Text>
             </Flex>
             <Flex flexDirection="column" lineHeight="28px" w="40%">
-              <Text as="b" fontSize="xs" color="black" my="8%">
+              <Text as="b" fontSize="xs" color="black" >
                 EXPERIENCE MYNTRA APP ON MOBILE
               </Text>
               <Flex>
@@ -78,7 +78,7 @@ function Footer() {
               </Flex>
             </Flex>
             <Flex flexDirection="column">
-              <Flex w="60%" my="7.5%">
+              <Flex w="60%" my="8%">
                 <Image w="20%" h="95%" mr="5%" src={original} />
                 <Text>
                   <Text color="black" as="b" mr="2%">
