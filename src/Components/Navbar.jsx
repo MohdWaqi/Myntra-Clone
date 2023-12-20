@@ -19,6 +19,7 @@ import {
   Heading,
   Button,
   Divider,
+  useToast,
 } from "@chakra-ui/react";
 import logo from "../assets/logo/logo.png";
 import user from "../assets/icons/user.png";
@@ -40,6 +41,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function Navbar() {
+  const logoutToast = useToast();
   const {
     isOpen: menIsOpen,
     onOpen: menOnOpen,
@@ -360,6 +362,12 @@ function Navbar() {
                     onClick={() => {
                       setIsAuth(false);
                       setToken("");
+                      logoutToast({
+          title: "Logged Out Successfully",
+          position: "top",
+          variant:'subtle',
+          duration: 3000,
+        });
                       navigate("/");
                     }}
                     color="gray.600"
