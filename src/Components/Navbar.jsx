@@ -98,7 +98,7 @@ function Navbar() {
           alt="logo"
           ml="4%"
         />
-        <Flex h="100%" w="65%" ml={{"2xl":"3.5%", xl:"2%"}}>
+        <Flex h="100%" w="40%" ml={{"2xl":"3.5%", xl:"2%"}}>
           <Box
             // px="19px"
             px="3%"
@@ -208,11 +208,11 @@ function Navbar() {
             </Text>
           </Box>
           <Modal isOpen={studioIsOpen} preserveScrollBarGap>
-            <ModalOverlay mt="11vh" />
+            <ModalOverlay mt={{"2xl":"5.2%", xl:"6.3%"}} />
 
             <ModalContent
               position="relative"
-              mt="11vh"
+              mt={{"2xl":"11vh", xl:"10.2vh"}}
               onMouseEnter={studioOnOpen}
               onMouseLeave={studioOnClose}
               ml="-17%"
@@ -223,7 +223,7 @@ function Navbar() {
               <Box
                 position="absolute"
                 top="-80px"
-                left="41.7%"
+                left={{"2xl":"39.3%", xl:"51%"}}
                 w="83px"
                 h="80px"
                 borderBottom={studioIsOpen && `3px solid #F22E97`}
@@ -254,7 +254,7 @@ function Navbar() {
             </ModalContent>
           </Modal>
         </Flex>
-        <InputGroup w="max-content" mr="2%" ml="4%">
+        <InputGroup w="40%" mr="2%" ml={{xl:"5%"}} >
           <InputLeftElement>
             <SearchIcon color="gray" />
           </InputLeftElement>
@@ -263,11 +263,11 @@ function Navbar() {
             placeholder="Search for products, brands and more"
             fontSize="sm"
             pb="5px"
-            pl="9%"
-            w="520px"
+            pl={{"2xl":"9%", xl:"15%"}}
+           
           />
         </InputGroup>
-        <Flex h="100%">
+        <Flex h="100%" w="18%">
           <Menu isOpen={logInIsOpen}>
             {!loginPage && (
               <MenuButton
@@ -297,8 +297,8 @@ function Navbar() {
               borderRadius="none"
             >
               <Box
-                w="65px"
-                h="75px"
+                w="22%"
+                h="18.4%"
                 position="absolute"
                 top="-18.6%"
                 right="15%"

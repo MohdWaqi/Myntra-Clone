@@ -31,7 +31,7 @@ function MenuData({ data, dataOf, isOpen, onClose, onOpen, hColor }) {
             position="absolute"
             top="-80px"
             left="2.4%"
-            w={{"2xl":"5.4%", xl:"6%"}}
+            w={{"2xl":"5%", xl:"6%"}}
             h="18%"
             borderBottom={isOpen && `3px solid ${hColor}`}
           ></Box>
@@ -40,9 +40,9 @@ function MenuData({ data, dataOf, isOpen, onClose, onOpen, hColor }) {
           <Box
             position="absolute"
             top="-80px"
-            left="7.8%"
-            w="7.5%"
-            h="18%"
+            left={{"2xl":"7.5%", xl:"8.5%"}}
+            w={{"2xl":"7.3%", xl:"8.5%"}}
+            h={{"2xl":"18%", xl:"18.8%"}}
             borderBottom={isOpen && `3px solid ${hColor}`}
           ></Box>
         )}
@@ -50,9 +50,9 @@ function MenuData({ data, dataOf, isOpen, onClose, onOpen, hColor }) {
           <Box
             position="absolute"
             top="-80px"
-            left="15.3%"
-            w="65px"
-            h="18.5%"
+            left={{"2xl":"14.8%",xl:"17%"}}
+            w={{"2xl":"5.5%",xl:"6.5%"}}
+            h={{"2xl":"18.5%", xl:"17.5%"}}
             borderBottom={isOpen && `3px solid ${hColor}`}
           ></Box>
         )}
@@ -60,9 +60,9 @@ function MenuData({ data, dataOf, isOpen, onClose, onOpen, hColor }) {
           <Box
             position="absolute"
             top="-80px"
-            left="20.9%"
-            w="130px"
-            h="16%"
+            left={{"2xl":"20.3%", xl:"23.5%"}}
+            w={{"2xl":"10.8%", xl:"13.6%"}}
+            h={{"2xl":"16%", "xl":"16.7%"}}
             borderBottom={isOpen && `3px solid ${hColor}`}
           ></Box>
         )}
@@ -70,9 +70,9 @@ function MenuData({ data, dataOf, isOpen, onClose, onOpen, hColor }) {
           <Box
             position="absolute"
             top="-80px"
-            left="32%"
-            w="83px"
-            h="17.5%"
+            left={{"2xl":"31.2%", xl:"37.2%"}}
+            w={{"2xl":"7%", xl:"8.4%"}}
+            h={{"2xl":"17.5%", xl:"18.1%"}}
             borderBottom={isOpen && `3px solid ${hColor}`}
           ></Box>
         )}
